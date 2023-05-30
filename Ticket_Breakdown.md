@@ -23,7 +23,7 @@ Acceptance Criteria:
 1. Add a new field "custom_id" to the Shifts table in the database.
 2. "custom_id" field should be a string type and nullable, and should be able to store the custom IDs provided by the each Facilities.
 3. The existing functionality of creating and updating Agents should not be affected.
-4. Map the custom ID to Agent's ID in Agents table.
+4. Map the custom ID to Agent's internal database ID in Agents table.
 
 Time Estimate: 1 hour.
 
